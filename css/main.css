@@ -683,7 +683,7 @@ img {
     position: relative;
     /* background-color: rgba(17, 214, 240, 0.30); */
     background-color: #FF305B;
-    height: 130px;
+    height: 180px;
 }
 
 .profile-picture-block:before,
@@ -1804,7 +1804,8 @@ span.typed {
 
 .timeline.currecnt .timeline-icon:after,
 .main-timeline .timeline:hover .timeline-icon:after {
-    background: #FF305B;
+    /* background: #FF305B; */
+    background: #11d6f0;
 }
 
 .main-timeline .timeline:nth-child(2n) .timeline-icon:after {
@@ -2057,7 +2058,8 @@ span.typed {
 }
 
 .progress-bar {
-    background-color: #FF305B;
+    /* background-color: #FF305B; */
+    background-color: #11d6f0;
     height: 100%;
     border-radius: 10px;
 }
@@ -2724,7 +2726,7 @@ textarea {
     font-size: 14px !important;
     border-radius: 100px !important;
     /* background: linear-gradient(135deg, #FF305B, #6ceeff, #FF305B, #ccc, #6ceeff); */
-    background: linear-gradient(-120deg, rgba(255, 48, 91, 1) 35%, rgba(255, 23, 71, 1) 65%, rgba(255, 0, 53, 1) 100%);
+    background: linear-gradient(135deg, #FF305B, #f11946, #FF305B, #f95678, #f11946);
     background-size: 400% 400%;
     margin-top: 35px;
 }
